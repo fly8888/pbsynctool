@@ -1,0 +1,9 @@
+Package: com.yourcompany.pbsync
+Name: pbsync
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome tool of some sort!!
+Maintainer: zFly
+Author: zFly
+Section: System
+Tag: role::hacker

@@ -1,0 +1,3 @@
+#!bin/bash
+launchctl unload /Library/LaunchDaemons/com.pbsync.daemon.plist;
+exit 0;
