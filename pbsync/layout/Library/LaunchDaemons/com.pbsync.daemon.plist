@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/pbsync</string>
+	</array>
 	<key>Label</key>
 	<string>com.pbsync.daemon</string>
-	<key>Program</key>
-	<string>/usr/local/bin/pbsync</string>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardErrorPath</key>

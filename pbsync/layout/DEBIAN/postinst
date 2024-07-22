@@ -1,0 +1,6 @@
+#!bin/bash
+chown root:wheel /Library/LaunchDaemons/com.pbsync.daemon.plist;
+chmod 644 /Library/LaunchDaemons/com.pbsync.daemon.plist
+chmod +x /usr/local/bin/pbsync;
+launchctl load /Library/LaunchDaemons/com.pbsync.daemon.plist;
+exit 0;

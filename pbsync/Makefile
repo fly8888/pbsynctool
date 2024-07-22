@@ -1,5 +1,5 @@
-export THEOS_DEVICE_IP = 127.0.0.1
-export THEOS_DEVICE_PORT = 2222 
+export THEOS_DEVICE_IP = 192.168.31.227
+export THEOS_DEVICE_PORT = 22 
 
 TARGET := iphone:clang:latest:7.0
 
@@ -17,8 +17,7 @@ pbsync_INSTALL_PATH = /usr/local/bin
 
 include $(THEOS_MAKE_PATH)/tool.mk
 
-before-package::
-	cp postinst $(THEOS_STAGING_DIR)/DEBIAN/
-	cp postrm $(THEOS_STAGING_DIR)/DEBIAN/
-
+# before-package::
+# 	cp postinst $(THEOS_STAGING_DIR)/DEBIAN/
+# 	cp postrm $(THEOS_STAGING_DIR)/DEBIAN/
 
